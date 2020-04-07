@@ -8,4 +8,4 @@ All the other files have their own mini-readme at the top of the document.
 
 If you have any questions, DM me on Discord: joint-Dogg666#7447
 
-Oh, one last thing: if you got here from someplace other than [my Lego Bionicle GBA blog](https://bioniclegba.blogspot.com/], you should check it out!
+Oh, one last thing: if you got here from someplace other than [my Lego Bionicle GBA blog](https://bioniclegba.blogspot.com/), you should check it out!
