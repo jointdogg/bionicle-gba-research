@@ -1,0 +1,83 @@
+These are values passed to the Set_Flag() function and what they correspond to. Parenthesis mean that the value was passed to Set_Flag_Pre(), which is basically another set of flags.
+
+This document is probably the messiest in this initial commit. Sorry about that.
+
+Here are flags I've actually seen set in-game:
+
+(0x01: 0x3002f2c: crab game talk)
+0x01: 0x3002f2d: crab game start
+(0x03: 0x3002f3c: boat game talk)
+0x03: 0x3002f3d: boat game start
+0x06: 0x3002f55: Firestaff
+(0x07: 0x3002f5c: Volo Lutu spawn)
+0x07: 0x3002f5d: Volo Lutu pick-up
+0x08: 0x3002f65: drill
+0x09: Trident
+0x0C: 3002f85: hammer
+0x0E: 3002f95: disc 1
+0x11: 0x3002fad: Crystal 1
+0x12: 0x3002fb5: Crystal 2
+0x13: 0x3002fbd: Crystal 1
+0x14: 0x3002fc5: Crystal 2
+(0x1D: 0x300300c: First shaman talk)
+0x1D: 0x300300d: First shaman talk
+0x23: 0x300303d: Whenua free
+0x24: 0x3003045: Nokama free
+(0x28: 0x3003064: Onu-Koro clear)
+0x28: 0x3003065: Gali
+0x29: Kopaka
+0x2a: Lewa
+0x2b: 0x300307d: Onua stone
+(0x2c: 0x3003084: Ga-Koro clear)
+0x2c: Pohatu
+0x2d: Tahu
+(0x30: 0x30030a4: conversation on starting beach)
+0x30: 0x30030a5: conversation on starting beach
+0x36: 0x30030d5: Onu guards
+0x37: 0x30030dd: Po guards
+0x3a: 0x30030f5: First Onu-Koro
+0x3c: 0x3003105: Vatuka
+(0x3f: 0x300311c: Podu text)
+0x3f: 0x300311d: Podu text
+0x4a: 03003170: Gali Sphere
+(0x4b: 0x300317c: First Nokama)
+0x4b: 0x300317d: Ga Sphere
+
+0x1E: Second shaman
+
+moa 0x3003135, 0x300313d
+podu 0x300311c-d
+
+Assumptions from the code:
+
+00-05: minigames (6)
+06-10: items (11: 3x disks, 6x staffs, lavaboard, launcher)
+11-1c: crystals (12)
+1d-22: crystal turnin (6)
+23: whenua free
+24: nokama free
+25: matau free
+26: nuju free
+27: Vakama free
+28-2d: toa stones
+2e-2f: unknown
+30-35: non-repeating dialog
+36-3a: auto dialog
+3b: first bird
+3c: vatuka
+3d: unknown, linked to 3e
+3e: unknown, set in tahu stone room
+3f: podu
+40-41:unknown (linked)
+42,43: moa
+44: onewa volo sphere
+45: onewa 3 cage
+46: unknown (likely antidote)
+47: underground locks, moa scene
+48: Avalanche
+49: likely key (text on pickup, not sphere)
+4a-4d: gali, ga-, po-, ta-koro volo spheres
+4e: element of melting
+4f: unknown (preflag and text, pickup status unknown)
+50-53: tree gears
+54-57: gears on tree

@@ -1,0 +1,247 @@
+SPAWN IDS
+These are all the possible values for the first parameter of the spawn() function. (see the decompiled code.) The second and third parameters are the X and Y positions. Fourth and sixth parameters need looking into. Fifth parameter (referred to as n) specifies which variant of the object is displayed.
+
+0x00: Starting sequence
+0x01: Takua
+0x02: Vakama (n=1)
+0x03: Matau
+0x04: Nuju
+0x05: Caged Vakama (n=4)
+0x06: Also Nokama (compare?)
+0x07: Nokama
+0x08: Madu projectile
+0x09: Rock projectile
+0x0a: Cabolo projectile
+0x0b: Launcher projectile
+0x0c: Disc projectile
+0x0d: Launcher crosshairs
+0x0e: Melting icicle
+0x0f: Piss-yellow snowball projectile TODO: palette?
+0x10: Trident projectile
+0x11: Elevator
+0x12: Movable l. boulder
+0x13: hammerable rock formation
+0x14: s. boulder + 4 rock pickups (smash l. boulder)
+0x15: 4 rock pickups (smash s. boulder)
+0x16: Iceberg
+0x17: Electric/spiderweb damage effect
+0x18: Starburst
+0x19: Popping energy pickup
+0x1a: Rock heap
+0x1b: Scrolls through the numbers. cf koli font
+0x1c: glitchy moa/taku OR Takua on his lavaboard (as in final cutscene)
+0x1d: pet moa
+0x1e: pet ussal
+0x1f: Energy pickup
+0x20: LMAO. Max concussive force spider (Ga-Wahi)
+0x21: Hoi
+0x22: Sign
+0x23: Mech tree gear
+0x24: Mech tree door
+0x25: Sign again?
+0x26: The ducking Takuas from the tutorial minigame
+0x27: A very jaundiced onewa (piss onewa lol)
+0x28: Diving bird anim? TODO i forget what i meant by this
+0x29: Tame Maha (!!!)
+0x2a: Dirt pile animation
+0x2b: Autoroll boulder (as in Whenua)
+0x2c: softlock.
+0x2d: ground-burowing attack fikou
+0x2e: grapple point (fixed)
+0x2f: switch (as seen in game)
+0x30: switch (unused sprite, responds when stepped on)
+0x31: underground switch
+0x32: onewa pillar
+0x33: tutorial gate
+
+#### Minigame stuff; largely doesn't work out of context
+0x34: TODO
+0x35: Tiny matoran -- Koli sprite? TODO
+0x36: Fucks up the ground texture? TODO
+0x37: Sparklies? who da fuck knows TODO
+0x38: Digging minigame icons
+0x39: TODO
+0x3a: TODO
+0x3b: TODO
+0x3c: TODO
+0x3d: Another fucked up ground texture. TODO
+0x3e: Oh my god it's the boat. and you can steer it. fuck this owns
+0x3f: Right oar TODO
+0x40: Left oar? TODO
+0x41: Win screen TODO check ns
+0x42: sigh. a blue dot? TODO
+0x43: perpetual crosshair action. fruit is thrown where the hairs are aimed.
+0x44: sigh, more blue. TODO
+0x45: TODO
+0x46: Brief display of bird hearts before cut to win screen. TODO?
+0x47: Locks perspective, at least. still in the shit TODO
+0x48: TODO
+0x49: Bird launcher stuff TODO
+0x4a: One heart. TODO
+0x4b: Win screen again.
+0x4c: Final lavaboard minigame lava shimmer
+0x4d: Lavaboard minigame main sprite.
+0x4e: Lava eruption
+0x4f: Bubbling, spurting lava. TODO: unused?
+0x50: Lavaboard skid marks
+0x51: Lava eruption plume
+0x52: TODO
+
+#### Back to normal
+0x53: Matoran
+0x54: Podu, for some reason
+0x55: Guard/Shaman (n=0/1)
+0x56: Whenua
+0x57: Onewa
+0x58: Small boulder
+0x59: TODO
+0x5a: TODO
+0x5b: screenshake. TODO
+0x5c: TODO
+0x5d: Rock pickup
+0x5e: Madu pickup
+0x5f: Yellow snowball pickup TODO palette
+0x60: Cabolo pickup
+0x61: TODO
+0x62: Palm tree
+0x63: Torch
+0x64: Snowbank, as in Nuju
+0x65: Key
+0x66: TODO
+0x67: Onua exploding wall
+0x68: Glitchy
+0x69: Glitchy
+0x6a: Ga-Wahi exploding wall
+0x6b: Glitchy
+0x6c: Gali stone
+0x6d: Kopaka stone
+0x6e: Lewa stone
+0x6f: Onua stone
+0x70: Pohatu stone
+0x71: Tahu stone
+0x72: Infected hoi
+0x73: Daikau
+0x74: Swooping green bird
+0x75: Moa (final color scheme)
+0x76: Vatuka
+0x77: Lava Vatuka
+0x78: Mini-Vatuka
+0x79: Cave fikou
+0x7a: TODO
+0x7b: The first of many purple Mahi TODO: check for differences
+0x7c: TODO
+0x7d: Mahi (Purple, projectile attack)
+0x7e: More Mahi
+0x7f: Might be an invisible block? TODO
+0x80: Moa (walkthrough palette)
+0x81: Black and red Mahi (charging)
+0x82: Unnamed scorpion (final colors)
+0x83: Green bird
+0x84: Spider (Ga-Wahi var) (TODO: compare all of these)
+0x85: Water ussal
+0x86: Purple lightning bug
+0x87: Kewa (purple)
+0x88: Kewa's shadow over Takua?
+0x89: Bug (Onewa cage var)
+0x8a: ah fucking hell, all that work for nothing. Brakas!
+0x8b: Enemy madu fruit projectile
+0x8c: Fire vako projectile
+0x8d: Ice vako projectile
+0x8e: lightning ball projectile
+0x8f: fire spider projectile
+0x90: Unused green Mahi. Intended for Le-Koro?
+0x91: Spider (Po-Wahi var)
+0x92: Spider (Le-Wahi var)
+0x93: Fire Vako
+0x94: Snow Vako
+0x95: Rock Ussal
+0x96: Spider (Ga-Wahi var)
+0x97: Also max concussive force spider?
+0x98: Snowbird
+0x99: Shadow (TODO: examine more closely!)
+0x9a: Snowbird shadow
+0x9b: Bug (blue)
+0x9c: Red Le-Koro bug (surprisingly chill, throws fruit)
+0x9d: Mahi (Purple, charges)
+0x9e: Red Le-Koro bug (max concussive force as in final game)
+0x9f: Husi
+0xa0: Mahi (Red, runs away, drops key)
+0xa1: Small boulder superimposed over Takua's sprite (TODO?)
+0xa2: s. boulder shadow, I believe
+0xa3: Kewa (pick up var, red)
+0xa4: Kewa's shadow over Takua
+0xa5: Baby birds (Taku)
+0xa6: Snow Hikaki (drops Kopaka stone)
+0xa7: Fire Hikaki
+0xa8: Makika
+0xa9: Kofo-Jaga
+0xaa: Immovable l. boulder (double check with Pohatu)
+0xab: Cliff Bug
+0xac: Cliff Bug stone projectile
+0xad: Bondage Turaga (n=0 Nok, n=1 Mat)
+0xae: Geyser
+0xaf: TODO
+0xb0: Switch (TODO: compare with 2f)
+0xb1: Interestingly fucked up boulder. Rotates when you run into it; doesn't move; bad colors. TODO
+0xb2: Antidote
+0xb3: Element of melting. TODO: colors
+0xb4: 1 health pickup
+0xb5: 2 health pickup
+0xb6: 3 health pickup
+0xb7: Unused pickup. yeets you upon collection.
+0xb8: TODO
+0xb9: TODO
+0xba: TODO
+0xbb: TODO
+0xbc: TODO
+0xbd: TODO
+0xbe: Hardened lava. TODO i guess
+0xbf: Dirt kicked up from digging. TODO check n's
+0xc0: Volo Sphere
+0xc1: bird rider
+0xc2: bird
+0xc3: Drill
+0xc4: Hammer
+0xc5: Firestaff
+0xc6: Ice Pick
+0xc7: Lavaboard
+0xc8: Kau Kau
+0xc9: Trident
+0xca: Glitched
+0xcb: Disc
+0xcc: Launcher
+0xcd: VM Crystal (variants n=0, n=1)
+0xce: A disc that thinks it's the first toa stone. TODO n's
+0xcf: cracked ground tile- opens when hit with projectile- TODO
+0xd0: cracked ground- opens when hit with projectile- as seen in tahu3
+0xd1: falling stalactite
+0xd2: TODO
+0xd3: .... vuata maca crystal??? much like disc above. TODO n's??
+0xd4: the other half of vm crystal; fireball on pickup; uhh TODO
+0xd5: another switch. beginning to suspect there's a diff spawn number for each distinct door opened by these switches. TODO obvi
+0xd6: also a switch! TODO
+0xd7: Elevator again. kinda treadmill-like. moves objects down.
+0xd8: Constantly moving elevator, as in le-koro.
+0xd9: Elevator. also treadmilly, but does not move objects.
+0xda: Same as d9?
+0xdb: Cage, suspended as in Whenua. Trident, launcher work on it.
+0xdc: Cage, on ground.
+0xdd: Cage, also on ground.
+0xde: Cage grill. TODO though (why? i've forgotten.)
+0xdf: Menu firestaff pointed other way. TODO ns
+0xe0: Bouncing arrow up. TODO ns
+0xe1: Bouncing arrow down.
+0xe2: pakari (as in character creator)
+0xe3: head and torso
+0xe4: left arm (his right)
+0xe5: right arm
+0xe6: left foot
+0xe7: right foot
+0xe8: R button (color bad)
+0xe9: L button
+0xea: inventory selector frame
+0xeb: identical (?) to 00
+0xec: same as eb
+0xed: glitched black screen
+0xee: same as ed
+0xef: same as ed
